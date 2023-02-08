@@ -19,4 +19,6 @@ This should work for moving any kind of object to any kind of OU. Moving compute
 
 ## Additional Information
 
+See [PowerShell: Move Computer to OU](https://theitbros.com/powershell-move-computer-to-ou/) - TheITBros
+
 See [PowerShell for Sysadmins](https://nostarch.com/powershellsysadmins) by Adam Bertram
