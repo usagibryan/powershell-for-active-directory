@@ -3,6 +3,8 @@ These are handy time saving PowerShell scripts and commands I found for moving a
 
 ## Exporting Email Addresses From a Group
 
+Say your manager asks you to provide them with a list of all the members or email addresses of members in an email group.
+
 `export_addresses.ps1` selects a group and exports the email address of each user in that group to a csv file. Replace `"Group Name"` with the name of the group you want to export members from and `C:\folder\exported_file.csv` with where you want the file to be exported to and how you want it to be named.
 
 If you want to export different information, such as the names of the users in the group, you can replace `Select-Object Mail |` on line 3 with `Select-Object Givenname, SurName |`
