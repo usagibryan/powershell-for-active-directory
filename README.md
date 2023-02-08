@@ -16,3 +16,7 @@ Say you have OUs that represent room numbers in a building, such as a computer l
 The script `move_computers.ps1` takes a list of objects in a .csv or .txt file, in this case a list of computer names, and moves those computers to an [Organizational Unit](https://en.wikipedia.org/wiki/Organizational_unit_(computing)) (OU). Just replace `C:\list_of_pcs.csv` with the file name and location of your list of computer names, and `"OU=roomumber,OU=computers,OU=department,DC=companyname,DC=com"` with the [distinguished name](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ldap/distinguished-names) of the OU you want to move the computers to. To find the distinguished name of your target OU, right click on the OU and select "properties", click on the "Attribute Editor" tab and scroll downt o "distinguishedName"
 
 This should work for moving any kind of object to any kind of OU. Moving computers was just the use case I needed this script for.
+
+## Additional Information
+
+See [PowerShell for Sysadmins](https://nostarch.com/powershellsysadmins) by Adam Bertram
